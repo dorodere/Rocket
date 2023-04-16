@@ -16,7 +16,3 @@ figment = { version = "0.10", features = ["toml", "env"] }
 [dev-dependencies.rocket_dyn_templates]
 path = "../../contrib/dyn_templates"
 features = ["tera"]
-
-[dev-dependencies.rocket_db_pools]
-path = "../../contrib/db_pools/lib"
-features = ["sqlx_sqlite"]
